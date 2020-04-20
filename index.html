@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Breaking Bad Quotes</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card mx-auto my-2" style="width: 18rem;">
+            <img src="./assets/breakingBad.jpg" class="card-img-top p-2" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Breaking Bad Quotes</h5>
+              <p class="card-text">Walter White, a chemistry teacher, discovers that he has cancer and decides to get into the meth-making business to repay his medical debts. His priorities begin to change when he partners with Jesse.</p>
+              <a href="https://en.wikipedia.org/wiki/Breaking_Bad" target="_blank" class="btn btn-primary btn-block">Wiki</a>
+            </div>
+          </div>
+        <div class="text-center">
+            <label for="number" class="text-primary">Number</label>
+            <br>
+            <input type="number"  id="number">
+            <br>
+            <button class="btn btn-success p-2 my-3" type="submit" id="btn">Get Quotes</button>
+            <div class="text-center">
+                <ul id="getQuotes"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/jquery-3.5.0.js"></script>
+    <script src='./assets/js/bootstrap.min.js'></script>
+    <script src="./app.js"></script>
+</body>
+</html>
